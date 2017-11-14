@@ -1,0 +1,122 @@
+html, body{
+	max-width: 100%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	margin:0px; 
+	user-select: none;
+}
+
+
+.top img {
+  display: block;
+  max-width: 100%;
+}
+
+#background {
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-x;
+	background-size: 525px 100%;
+}
+
+.navbar-nav>li>a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+}
+
+.navbar-header>a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  padding: 0em 1.5em;
+}
+
+
+.carousel-indicators li {
+	width: 20px !important;
+	height: 20px !important;
+	margin: 1px 10px !important;
+
+}
+
+.carousel-indicators .active {
+    background: url('../images/index.png');
+	margin: 0px 10px !important;
+	width: 20px !important;
+	height: 20px !important;
+}
+
+.border {
+	height: 4px;
+	background-image: url(../images/border.png)
+}
+
+.myhr{
+	margin: 15px 0px;
+}
+
+h1.title{
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: thick;
+  	font-size: 2.5em;
+  	padding: 50px 0px 0px 0px;
+}
+h2.subtitle{
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: thick;
+	text-align: center;
+}
+
+.description {
+	text-align: justify;
+	padding: 2em 2.5em !important;
+	font-family: 'Fresca', sans-serif;
+  	font-weight: 100;
+  	font-size: 1.5em;
+}
+
+.imgdes {
+	text-align: center;
+	font-family: 'Fresca', sans-serif;
+  	font-weight: 100;
+  	font-size: 1.5em;
+}
+
+.subtitle-desc{
+	text-align: justify;
+	padding: 0em 2em 2em 2em;
+	font-family: 'Fresca', sans-serif;
+  	font-weight: 100;
+  	font-size: 1.2em;
+}
+
+.image {
+	text-align: center;
+}
+
+.subtitle-image{
+	padding: 1em 0em;
+	text-align: center;
+}
+
+.list-unstyled li{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+  	font-size: 1.5em;
+}
+
+.parallax {
+    background-image: url('../images/parallax-img.jpg');
+    height: 400px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+	text-align: center;
+	font-family: 'Fresca', sans-serif;
+	padding-top: 200px;	
+}
+
+
